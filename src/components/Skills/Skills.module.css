@@ -1,0 +1,117 @@
+@import "../../vars.css";
+.container{
+    
+  position: relative;
+ 
+  margin-top: 49px;
+  z-index: 1;
+  margin-left: -0%;
+  margin-right: 10%;
+
+}
+.title{
+    position: relative;
+    color:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+    font-size:45px ;
+    margin-bottom: 50px;
+}
+.lefttittle{
+    color:yellowgreen;
+    font-size:30px;
+    position: relative;
+    z-index:1;
+    margin-bottom: 30px;
+}
+.righttittle{
+    position: relative;
+    z-index:1;
+    font-size:30px;
+    color:yellowgreen;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-left:10%;
+    margin-right:10%;
+}
+.left{
+    width: 50vw;
+    
+}
+
+.skillValue{
+    margin-left:10px;
+    font-size: 20px;
+}
+.skill{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 25px;
+    margin-left:10%;
+}
+.profSkill{
+    position: relative;
+    z-index: 1;
+    color: var(--color-text);
+    margin:10% 5%;
+    font-size: 20px;
+    padding: 10px;
+}
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 30vw;
+    
+    min-width: 150px;
+    top: 746px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
+  .topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(21, 30, 48, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
+@media screen and (max-width:830px){
+    .container{
+        display: column;
+        justify-content: space-evenly;
+        margin-right: -5%;
+        margin-left: -3%;
+    }
+    .righttittle{
+        font-size: 20px;
+    }
+    .lefttittle{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .skill{
+        font-size: 15px;
+        margin-bottom:5px;
+    }
+    .profSkill{
+        font-size: 15px;
+    }
+    .skillValue{
+        font-size:10px;
+    }
+} 

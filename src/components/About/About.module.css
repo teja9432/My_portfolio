@@ -1,0 +1,108 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 149px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+} 
+.contentRight{
+    display: column;
+    position: relative;
+    width: 140vw;
+}
+.contentleft{
+    width: 30vw;
+    z-index: 1;
+}
+
+.righttitle{
+position: relative;
+color:yellow;
+font-size: 35px;
+margin-bottom: 10px;
+z-index: 2;
+}
+.righttitle1{
+    position: relative;
+    font-size: 20px;
+    z-index: 2;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottomBlur {
+    position: absolute;
+    width: 50vw;
+    height: 30vw;
+    
+    min-width: 150px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
+  .topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(21, 30, 48, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+  }
+  .contact{
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .description{
+  position: relative;
+  z-index: 1;
+  font-size: 30px;
+}
+button{
+    margin-top: 20px;
+    color: black;
+    background-color: rgb(40, 178, 169);
+    
+    width:150px;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 35%;
+}
+@media screen and (max-width: 830px) {
+    .description{
+        font-size: 15px;
+    }
+    .contact{
+        font-size: 10px;
+    }
+    button{
+        border:none;
+        margin-top:5px;
+        font-size: 15px;
+        size: 10px;
+        background-color: rgb(40, 178, 169);
+    }
+    .container{
+        margin-top: 15px;
+        margin-left: 20%;
+    }
+    .contentRight{
+        width: 100vw;
+        margin-left: -50%;
+    }
+}

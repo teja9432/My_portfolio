@@ -1,0 +1,34 @@
+[
+    { 
+         "title":"Spring",
+         "max":"80%"
+    },
+    { 
+         "title":"Java",
+         "max":"85%"
+    },
+    { 
+         "title":"Html",
+         "max":"93%"
+    },
+    { 
+         "title":"Css",
+         "max":"80%"
+    },
+    { 
+         "title":"JavaScript",
+         "max":"75%"
+    },
+    { 
+         "title":"React Js",
+         "max":"80%"
+    },
+    { 
+         "title":"Bootstrap",
+         "max":"83%"
+    },
+    {
+         "title":"Oracle DB",
+         "max":"85%"
+    }
+]
