@@ -45,7 +45,7 @@ export function Hero() {
             className={s.photo}
             src={portrait.src}
             srcSet={portraitSrcset}
-            sizes="(max-width: 760px) 240px, 360px"
+            sizes="(max-width: 760px) 150px, 360px"
             width={portrait.width}
             height={portrait.height}
             alt={`Portrait of ${person.name}`}

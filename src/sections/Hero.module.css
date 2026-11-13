@@ -91,7 +91,7 @@
   }
   .photoWrap {
     justify-self: start;
-    width: 240px;
+    width: 150px;
     order: -1;
   }
 }
