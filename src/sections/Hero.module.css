@@ -1,5 +1,23 @@
 .hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding-block: clamp(3rem, 2rem + 6vw, 7rem) var(--space-8);
+}
+/* Faded grid of squares behind the hero, strongest top-right, fading out. */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 44px 44px;
+  background-position: center top;
+  -webkit-mask-image: radial-gradient(ellipse 75% 85% at 70% 30%, #000 20%, transparent 75%);
+  mask-image: radial-gradient(ellipse 75% 85% at 70% 30%, #000 20%, transparent 75%);
 }
 .grid {
   display: grid;

@@ -9,9 +9,9 @@
   --step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.875rem);
   --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
   --step-1: clamp(1.2rem, 1.1rem + 0.45vw, 1.4rem);
-  --step-2: clamp(1.5rem, 1.3rem + 0.9vw, 2rem);
-  --step-3: clamp(2rem, 1.6rem + 2vw, 3.25rem);
-  --step-4: clamp(2.6rem, 1.8rem + 4.2vw, 5.5rem);
+  --step-2: clamp(1.35rem, 1.2rem + 0.6vw, 1.7rem);
+  --step-3: clamp(1.75rem, 1.45rem + 1.4vw, 2.6rem);
+  --step-4: clamp(2.2rem, 1.6rem + 3vw, 4.25rem);
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;
@@ -42,6 +42,7 @@
   --todo-bg: #fff4c2;
   --todo-text: #5c4600;
   --todo-border: #c9a400;
+  --grid-line: rgba(22, 22, 26, 0.1);
   color-scheme: light;
 }
 
@@ -60,6 +61,7 @@
     --todo-bg: #3a3000;
     --todo-text: #ffe680;
     --todo-border: #a88a00;
+    --grid-line: rgba(242, 241, 238, 0.11);
     color-scheme: dark;
   }
 }
@@ -77,6 +79,7 @@
   --todo-bg: #3a3000;
   --todo-text: #ffe680;
   --todo-border: #a88a00;
+  --grid-line: rgba(242, 241, 238, 0.11);
   color-scheme: dark;
 }
 
