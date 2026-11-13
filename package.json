@@ -13,8 +13,10 @@
     "@fontsource/outfit": "^5.1.1",
     "@fontsource/roboto": "^5.1.1",
     "bootstrap-icons": "^1.11.3",
+    "firebase": "^12.12.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.14.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

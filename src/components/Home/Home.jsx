@@ -3,7 +3,7 @@ import React from "react";
 
 import styles from "./Home.module.css";
 
-import me from "../../assets/me1.png";
+import me from "../../assets/me.jpeg";
 
 export const Home = () => {
   return (

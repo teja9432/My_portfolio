@@ -1,9 +1,2 @@
-@import "./vars.css";
-
-.App {
-  background-color: var(--color-bg);
-  width: 100%;
-  height: auto;
-  color: var(--color-text);
-  overflow-y: none;
-}
+/* App wrapper — no extra styles needed, layout handled per-section */
+.App { min-height: 100vh; }
