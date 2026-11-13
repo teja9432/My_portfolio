@@ -49,7 +49,7 @@ export function Hero() {
             width={portrait.width}
             height={portrait.height}
             alt={`Portrait of ${person.name}`}
-            fetchPriority="high"
+            {...{ fetchpriority: "high" } /* React 18 only passes the lowercase attribute */}
             decoding="async"
           />
         </div>
