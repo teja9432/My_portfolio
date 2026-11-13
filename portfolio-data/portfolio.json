@@ -1,0 +1,120 @@
+{
+  "site": {
+    "url": "https://my-portfolio-git-main-tejeswararaos-projects.vercel.app",
+    "locale": "en_IN"
+  },
+  "person": {
+    "name": "Tejeswara Rao Karukola",
+    "shortName": "Tejeswara Rao",
+    "headline": "Full Stack Developer",
+    "valueProp": "",
+    "location": "",
+    "openToWork": null,
+    "email": "karukolatejeswararao@gmail.com",
+    "resumeUrl": "",
+    "linkedin": "https://www.linkedin.com/in/tejeswararao/",
+    "github": "https://github.com/teja9432"
+  },
+  "summary": "",
+  "skills": {
+    "AI & ML": [],
+    "Frontend": ["React", "JavaScript", "HTML", "CSS", "Bootstrap"],
+    "Backend": ["Java", "Spring Boot", "Microservices"],
+    "Databases": ["Oracle DB", "SQL"],
+    "Cloud & DevOps": [],
+    "Tools": []
+  },
+  "experience": [
+    {
+      "role": "Cloud Virtual Intern",
+      "company": "AICTE – EduSkills (curriculum by AWS Academy)",
+      "start": "2024-04",
+      "end": "2024-06",
+      "highlights": []
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Programming in Java (Elite)",
+      "issuer": "NPTEL – IIT Kharagpur",
+      "date": "2024-04",
+      "credentialUrl": "",
+      "image": "nptel.png",
+      "isAI": false
+    },
+    {
+      "name": "CAD101EN: Introduction to Web Development with HTML5, CSS3, and JavaScript",
+      "issuer": "IBM via edX",
+      "date": "2024-05-14",
+      "credentialUrl": "https://courses.edx.org/certificates/72089982e4e1473b98a7f01f80180a43",
+      "image": "edx1.png",
+      "isAI": false
+    },
+    {
+      "name": "Java (Basic)",
+      "issuer": "HackerRank",
+      "date": "2024-04-15",
+      "credentialUrl": "",
+      "image": "java_hack.png",
+      "isAI": false
+    },
+    {
+      "name": "Cloud Virtual Internship",
+      "issuer": "AICTE – EduSkills / AWS Academy",
+      "date": "2024-06",
+      "credentialUrl": "",
+      "image": "intern.png",
+      "isAI": false
+    }
+  ],
+  "education": [
+    { "degree": "Bachelor's in Computer Science and Engineering", "school": "Raghu Engineering College", "year": "" }
+  ],
+  "projects": [
+    {
+      "name": "Televoro.ai",
+      "url": "",
+      "oneLiner": "AI-powered inbound and outbound calling for businesses",
+      "stack": [],
+      "isAI": true,
+      "highlights": [],
+      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+    },
+    {
+      "name": "AlphaCutz",
+      "url": "https://alphacutz.web.app/",
+      "oneLiner": "Marketing site for a digital agency offering web development, branding, SEO and content creation.",
+      "stack": ["Vite", "Firebase Hosting"],
+      "isAI": false,
+      "highlights": [],
+      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+    },
+    {
+      "name": "Foberage (E-commerce)",
+      "url": "https://foberage.com/",
+      "oneLiner": "E-commerce storefront for a gym wear and athletic streetwear brand.",
+      "stack": ["Vite", "Firebase"],
+      "isAI": false,
+      "highlights": [],
+      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+    },
+    {
+      "name": "AcademyDesk",
+      "url": "https://academydesk-coral.vercel.app/",
+      "oneLiner": "Helps computer science students build academic projects with source code, IEEE-aligned documentation, and 1-on-1 guidance.",
+      "stack": ["Next.js", "Vercel"],
+      "isAI": false,
+      "highlights": [],
+      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+    },
+    {
+      "name": "AlphaFlow",
+      "url": "https://alpha-flow-coral.vercel.app/",
+      "oneLiner": "Instagram comment and DM automation: instant replies, follower verification, and automatic link delivery to DMs.",
+      "stack": ["Next.js", "Vercel"],
+      "isAI": false,
+      "highlights": [],
+      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+    }
+  ]
+}

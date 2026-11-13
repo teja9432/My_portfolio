@@ -1,0 +1,23 @@
+.section {
+  padding-block: var(--space-8);
+  border-top: 1px solid var(--border);
+}
+.head {
+  display: grid;
+  gap: var(--space-3);
+  margin-bottom: var(--space-7);
+  max-width: 46rem;
+}
+.index {
+  font: 600 var(--step--1) / 1 var(--font-mono);
+  color: var(--accent);
+  letter-spacing: 0.08em;
+}
+.title {
+  font-size: var(--step-3);
+}
+.intro {
+  color: var(--text-muted);
+  font-size: var(--step-1);
+  line-height: 1.5;
+}

@@ -1,19 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { imagetools } from "vite-imagetools";
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  css: {
-    modules: {
-      localsConvention: 'camelCase'
-    }
-  },
-  server: {
-    // Allow /admin route to serve index.html in dev
-    historyApiFallback: true,
-  },
+  plugins: [react(), imagetools()],
   preview: {
     port: 4173,
-  }
-})
+  },
+});

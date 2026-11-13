@@ -1,81 +1,28 @@
-import React, { useState } from "react";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import "./index.css";
+import "@fontsource-variable/bricolage-grotesque";
+import "./styles/global.css";
 
-import { PortfolioProvider } from "./context/PortfolioContext";
-import { useScrollReveal } from "./hooks/useScrollReveal";
+import { Routes, Route } from "react-router-dom";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { Home } from "./pages/Home";
+import { ProjectPage } from "./pages/ProjectPage";
+import { NotFound } from "./pages/NotFound";
 
-// Portfolio sections
-import { Navbar } from "./components/Navbar/Navbar";
-import { Hero } from "./components/Home/Hero";
-import { About } from "./components/About/About";
-import { Intern } from "./components/InternShips/Intern";
-import { Skills } from "./components/Skills/Skills";
-import { Certification } from "./components/Certifications/Certification";
-import { Projects } from "./components/Projects/Projects";
-import { Contact } from "./components/Contact/Contact";
-
-// Admin
-import { AdminLogin } from "./pages/AdminLogin";
-import { AdminPanel } from "./pages/AdminPanel";
-
-// Determine if we're on the admin route
-const isAdminRoute = () => {
-  const path = window.location.pathname.toLowerCase();
-  const hash = window.location.hash.toLowerCase();
-  const search = window.location.search.toLowerCase();
-  
-  return (
-    path.startsWith("/admin") || 
-    hash.startsWith("#admin") || 
-    search.includes("admin=1")
-  );
-};
-
-const PortfolioApp = () => {
-  useScrollReveal();
+export default function App() {
   return (
     <>
-      <Navbar />
-      <main style={{ paddingTop: "var(--navbar-height)" }}>
-        <Hero />
-        <About />
-        <Intern />
-        <Skills />
-        <Certification />
-        <Projects />
-        <Contact />
+      <a className="skip-link" href="#main">
+        Skip to content
+      </a>
+      <Header />
+      <main id="main" tabIndex={-1}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/:slug" element={<ProjectPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </main>
+      <Footer />
     </>
   );
-};
-
-const AdminApp = () => {
-  const [loggedIn, setLoggedIn] = useState(
-    () => sessionStorage.getItem("admin_session") === "true"
-  );
-
-  const handleLogin = () => {
-    sessionStorage.setItem("admin_session", "true");
-    setLoggedIn(true);
-  };
-
-  const handleLogout = () => {
-    sessionStorage.removeItem("admin_session");
-    setLoggedIn(false);
-  };
-
-  if (!loggedIn) return <AdminLogin onLogin={handleLogin} />;
-  return <AdminPanel onLogout={handleLogout} />;
-};
-
-function App() {
-  const showAdmin = isAdminRoute();
-  return (
-    <PortfolioProvider>
-      {showAdmin ? <AdminApp /> : <PortfolioApp />}
-    </PortfolioProvider>
-  );
 }
-
-export default App;
