@@ -4,7 +4,7 @@ import raw from "../../portfolio-data/portfolio.json";
 
 const certThumbs = import.meta.glob("../assets/certificates/*.png", {
   eager: true,
-  query: { w: 480, format: "webp", quality: 70 },
+  query: { w: 480, format: "webp", quality: 70, as: "metadata" },
   import: "default",
 });
 const certFull = import.meta.glob("../assets/certificates/*.png", {
