@@ -32,6 +32,12 @@ export function Certifications() {
                     <time dateTime={c.date}>{formatDate(c.date)}</time>
                   </>
                 )}
+                {!isBlank(c.expires) && (
+                  <>
+                    {" · Expires "}
+                    <time dateTime={c.expires}>{formatDate(c.expires)}</time>
+                  </>
+                )}
               </p>
               <div className={s.links}>
                 {!isBlank(c.credentialUrl) ? (

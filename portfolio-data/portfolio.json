@@ -6,34 +6,156 @@
   "person": {
     "name": "Tejeswara Rao Karukola",
     "shortName": "Tejeswara Rao",
-    "headline": "Full Stack Developer",
+    "headline": "SAP SD · Java Developer · MERN Stack Developer",
     "valueProp": "",
-    "location": "",
+    "location": "Visakhapatnam, Andhra Pradesh, India",
     "openToWork": null,
     "email": "karukolatejeswararao@gmail.com",
     "resumeUrl": "",
     "linkedin": "https://www.linkedin.com/in/tejeswararao/",
     "github": "https://github.com/teja9432"
   },
-  "summary": "",
+  "summary": "I'm a passionate Full Stack Developer with a knack for turning ideas into reality. My journey in coding has equipped me with the skills to create dynamic, user-friendly web applications from start to finish.",
   "skills": {
-    "AI & ML": [],
-    "Frontend": ["React", "JavaScript", "HTML", "CSS", "Bootstrap"],
-    "Backend": ["Java", "Spring Boot", "Microservices"],
-    "Databases": ["Oracle DB", "SQL"],
+    "AI & ML": [
+      "Claude Agent SDK",
+      "Anthropic Claude",
+      "Claude Code"
+    ],
+    "Frontend": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Bootstrap"
+    ],
+    "Backend": [
+      "Java",
+      "Spring Framework",
+      "Spring Boot",
+      "Microservices"
+    ],
+    "Databases": [
+      "Oracle DB",
+      "SQL"
+    ],
     "Cloud & DevOps": [],
-    "Tools": []
+    "Tools": [
+      "Microsoft Excel",
+      "Video Editing"
+    ]
   },
   "experience": [
+    {
+      "role": "Programmer Analyst Trainee",
+      "company": "Cognizant",
+      "type": "Internship",
+      "location": "Chennai, Tamil Nadu, India · On-site",
+      "start": "2026-02",
+      "end": "present",
+      "highlights": []
+    },
+    {
+      "role": "Web Developer",
+      "company": "Zidio Development",
+      "type": "Internship",
+      "location": "Visakhapatnam, Andhra Pradesh, India · Remote",
+      "start": "2025-01",
+      "end": "2025-04",
+      "highlights": []
+    },
     {
       "role": "Cloud Virtual Intern",
       "company": "AICTE – EduSkills (curriculum by AWS Academy)",
       "start": "2024-04",
       "end": "2024-06",
-      "highlights": []
+      "highlights": [],
+      "type": "Virtual internship",
+      "location": "Remote"
     }
   ],
   "certifications": [
+    {
+      "name": "Context Engineering Foundation",
+      "issuer": "Cognizant",
+      "date": "2026-07",
+      "credentialUrl": "https://www.credly.com/badges/1a0e3334-57cb-4c41-864f-ab3ff9307f7d",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Deploy an Agent with Agent Development Kit (ADK)",
+      "issuer": "Google",
+      "date": "2026-09",
+      "credentialUrl": "https://www.credly.com/badges/c187fd2e-fcb2-43cd-89a5-38201cbd5502",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Build with Gemini",
+      "issuer": "Google",
+      "date": "2026-09",
+      "credentialUrl": "https://www.credly.com/badges/c4783f00-1944-4539-8728-9992bcbf8160",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Accelerate Development with Antigravity",
+      "issuer": "Google",
+      "date": "2026-09",
+      "credentialUrl": "https://www.credly.com/badges/696e7c7f-b45f-4191-816a-f214d62592fd",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Evaluate and Improve Agent Development Kit Agents",
+      "issuer": "Google",
+      "date": "2026-09",
+      "credentialUrl": "https://www.credly.com/badges/b6f1d9cf-b96c-412a-8048-03c01d02eec9",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Deploy Gemini Enterprise with Workspace Data Sources and Model Armor",
+      "issuer": "Google",
+      "date": "2026-10",
+      "credentialUrl": "https://www.credly.com/badges/b3d316d2-c316-4197-bdd5-8831a090f155",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Introduction to Subagents",
+      "issuer": "Anthropic",
+      "date": "2026-09",
+      "credentialUrl": "https://verify.skilljar.com/c/dyir7ecvtjpy",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Building with the Claude API",
+      "issuer": "Anthropic",
+      "date": "2026-09",
+      "credentialUrl": "https://verify.skilljar.com/c/gugoeabstjjz",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "SAP Certified – Positioning AI in the Autonomous Enterprise",
+      "issuer": "SAP",
+      "date": "2026-09",
+      "expires": "2027-09",
+      "credentialUrl": "https://www.credly.com/badges/a459ccec-2964-475d-869d-ad0a974d7214",
+      "image": "",
+      "isAI": true
+    },
+    {
+      "name": "Model Context Protocol: Advanced Topics",
+      "issuer": "Anthropic",
+      "date": "2026-09",
+      "credentialUrl": "https://verify.skilljar.com/c/2cy46t9b9gbo",
+      "image": "",
+      "isAI": true
+    },
     {
       "name": "Programming in Java (Elite)",
       "issuer": "NPTEL – IIT Kharagpur",
@@ -68,7 +190,11 @@
     }
   ],
   "education": [
-    { "degree": "Bachelor's in Computer Science and Engineering", "school": "Raghu Engineering College", "year": "" }
+    {
+      "degree": "Bachelor of Technology (BTech), Computer Science",
+      "school": "Raghu Engineering College",
+      "year": "2022 – 2026"
+    }
   ],
   "projects": [
     {
@@ -78,43 +204,75 @@
       "stack": [],
       "isAI": true,
       "highlights": [],
-      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+      "caseStudy": {
+        "problem": "",
+        "built": "",
+        "outcome": ""
+      }
     },
     {
       "name": "AlphaCutz",
       "url": "https://alphacutz.web.app/",
       "oneLiner": "Marketing site for a digital agency offering web development, branding, SEO and content creation.",
-      "stack": ["Vite", "Firebase Hosting"],
+      "stack": [
+        "Vite",
+        "Firebase Hosting"
+      ],
       "isAI": false,
       "highlights": [],
-      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+      "caseStudy": {
+        "problem": "",
+        "built": "",
+        "outcome": ""
+      }
     },
     {
       "name": "Foberage (E-commerce)",
       "url": "https://foberage.com/",
       "oneLiner": "E-commerce storefront for a gym wear and athletic streetwear brand.",
-      "stack": ["Vite", "Firebase"],
+      "stack": [
+        "Vite",
+        "Firebase"
+      ],
       "isAI": false,
       "highlights": [],
-      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+      "caseStudy": {
+        "problem": "",
+        "built": "",
+        "outcome": ""
+      }
     },
     {
       "name": "AcademyDesk",
       "url": "https://academydesk-coral.vercel.app/",
       "oneLiner": "Helps computer science students build academic projects with source code, IEEE-aligned documentation, and 1-on-1 guidance.",
-      "stack": ["Next.js", "Vercel"],
+      "stack": [
+        "Next.js",
+        "Vercel"
+      ],
       "isAI": false,
       "highlights": [],
-      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+      "caseStudy": {
+        "problem": "",
+        "built": "",
+        "outcome": ""
+      }
     },
     {
       "name": "AlphaFlow",
       "url": "https://alpha-flow-coral.vercel.app/",
       "oneLiner": "Instagram comment and DM automation: instant replies, follower verification, and automatic link delivery to DMs.",
-      "stack": ["Next.js", "Vercel"],
+      "stack": [
+        "Next.js",
+        "Vercel"
+      ],
       "isAI": false,
       "highlights": [],
-      "caseStudy": { "problem": "", "built": "", "outcome": "" }
+      "caseStudy": {
+        "problem": "",
+        "built": "",
+        "outcome": ""
+      }
     }
   ]
 }

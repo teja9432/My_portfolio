@@ -42,6 +42,10 @@
   color: var(--text-muted);
   font-weight: 500;
 }
+.location {
+  color: var(--text-muted);
+  font-size: var(--step--1);
+}
 .bullets {
   padding-left: 1.2em;
   display: grid;

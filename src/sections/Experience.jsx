@@ -20,7 +20,9 @@ export function Experience() {
               </h3>
               <p className={s.company}>
                 <Field value={e.company} field={`experience[${i}].company`} />
+                {e.type && ` · ${e.type}`}
               </p>
+              {e.location && <p className={s.location}>{e.location}</p>}
               {isBlank(e.highlights) ? (
                 <Todo field={`experience[${i}].highlights`} />
               ) : (
