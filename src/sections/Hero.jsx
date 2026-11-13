@@ -1,5 +1,5 @@
-import portraitSrcset from "../assets/portrait.jpg?w=280;420;600&format=webp&quality=78&as=srcset";
-import portrait from "../assets/portrait.jpg?w=420&format=webp&quality=78&as=metadata";
+import portraitSrcset from "../assets/portrait.jpg?w=160;320;440&format=webp&quality=78&as=srcset";
+import portrait from "../assets/portrait.jpg?w=320&format=webp&quality=78&as=metadata";
 import { person, isBlank } from "../data/content";
 import { Field, Icon, ExtLink, Todo } from "../components/ui";
 import s from "./Hero.module.css";
@@ -45,7 +45,7 @@ export function Hero() {
             className={s.photo}
             src={portrait.src}
             srcSet={portraitSrcset}
-            sizes="(max-width: 760px) 150px, 360px"
+            sizes="(max-width: 760px) 140px, 320px"
             width={portrait.width}
             height={portrait.height}
             alt={`Portrait of ${person.name}`}
